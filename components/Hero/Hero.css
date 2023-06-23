@@ -1,0 +1,42 @@
+.hero {
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 800px;
+    padding: 1em;
+}
+
+.hero-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.hero-description {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    line-height: 1.5;
+}
+
+.rad-button.hero-button {
+    font-size: 1em;
+    padding: 1em 2em;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.rad-button.hero-button:hover {
+    background-color: #0056e0;
+    color: white;
+}

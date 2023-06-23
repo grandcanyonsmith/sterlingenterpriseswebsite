@@ -1,0 +1,12 @@
+{
+    "linkList1": [
+      { "name": "Services", "url": "#services" },
+      { "name": "About", "url": "#about" },
+      { "name": "Contact", "url": "#contact" }
+    ],
+    "linkList2": [
+      { "name": "Privacy", "url": "#privacy" },
+      { "name": "Terms of Service", "url": "#terms" }
+    ]
+  }
+  

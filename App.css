@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    text-align: left;
+  }
+}
+
+.App-header {
+  background-color: #0f4c81;
+  padding: 20px;
+  color: white;
+}
+
+.App-services,
+.App-contact {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #e6e6e6;
+}
+
+.App-footer {
+  background-color: #0f4c81;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .App-footer {
+    position: relative;
+  }
+}
